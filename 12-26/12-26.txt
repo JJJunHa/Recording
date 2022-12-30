@@ -1,0 +1,92 @@
+1. 폴더명/화일이름은 반드시 영문자/숫자로만 만든다.
+
+개발자 파일 설정{
+경로 표시
+암호화 컬로표시
+보호된 화면 숨기기 표시 
+확장자 숨기기 표시
+}
+
+web 개발 <- main
+Artificial Intelligence
+
+프로그래밍 언어는 사람이 컴퓨터에게 일을 시키기 위한 것 !!
+
+편집기를 이용에 파일에 코딩 하는것
+ex) 이클립스 - 프로그래밍용 편집기
+JDK (Java Development Kit) - for Programmer -> 만들려고 하면
+-> 오라클 -> 경로(C:\Program Files\Java\jdk-19)
+JRE (Java Runtime Environment) - for Java User -> 실행 시킬려면
+
+이클립스 경로 -> C:\Users\admin\eclipse\jee-2022-12
+default 경로 -> C:\Users\admin\eclipse-workspace
+
+
+window-> Project Explorer
+
+익힌 문법
+System.out.println("") -> 콘솔에 출력 -> sysout 컨트롤 스페이스
+컨트롤 / 주석 처리
+
+전문용어를 많이 알아야 하고 외워야 한다. (temilology)
+{
+JDK (Java Development Kit)
+JRE (Java Runtime Environment)
+IDE(Integrated Developpment Environment) 통합개발환경
+(작성/저장)-> [메모장, 일반 편집기] /컴파일/실행/-> 다 합친게 IDE -> 
+Eclips(자바), Visual Studio Code(HTML/CSS/C#), Xcode(애플), Android Studio(구글), PyCharm(JetBrain)
+}
+
+자바 프로젝트 만들기
+-File > New -> Project... > Java Progect 선택
+-Project Name 작성(대문자로 시작)
+-Create Module- Module에 Create module -info 체크 해제
+-Finish
+
+자바 클래스 추가 
+-프로젝트 이름 위에서 오른쪽 마우스 클릭
+-New > Class 선택
+-Package 비우고, 클래스명 입력(대문자로 시작)
+-public static void main을 checked (첫 클래스만 추가) -> 프로젝트 하나당 하나만 존재 해야함
+-Finish
+
+변수(Variable)
+(보관용)그릇 - 값
+하나의 값을 저장할 수 있는 메모리의 특정 영역
+int x=0; <- 정수만 가능
+= : 같다가 아니고 오른쪽 값을 왼쪽 변수에 "넣어라"
+
+동등비교 -> 배정문
+
+데이터 타입{
+숫자
+정수(Integer) 소수점이 없는 숫자 
+실수(Real Number) 소수점이 있는 숫자 Floating point number -> 10.0, 3.14, 0.144 점이 떠다닌다!
+
+문자열(String) 0개 이상의 문자들 " " (빈문자열,empty string)
+Boolean(부울리언) 참(True)/거짓(False)
+
+int x = 10;
+float y = 3.14;         float, double
+String str = "Hello World";
+boolean flaq = true;
+byte, char, short, int, long(값에 대문자 L)     -127~+128->1byte -> 필요없는 영역을 줄여준다! 
+ 1       2      2    4     8
+" " 에 있는 공백도 문자다!
+String은 Complex Data 타입이라 자주색이 아니다.
+}
+
+
+자주색에 글씨는 선점된 글자(예약어)로 변수명에 선언 할 수 없다.
+
+명명규칙(Naming Rule) - 변수명/클래스명/함수명
+1. 알파벳, _로 시작해야 한다.
+2. 두번째 문자부터는 숫자도 사용가능
+3. 전체를 통틀어서 특수문자는 사용불가.
+
+권장사항
+1. 저장될 데이터의 속성(특성)을 의미하는 단어를 선택
+2. Camel Notation (가운데 글자를 대문자로 표기)
+
+
+

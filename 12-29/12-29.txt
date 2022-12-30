@@ -1,0 +1,32 @@
+반복문
+while(비교/논리){
+	실행문(참true일때)
+
+}
+
+int i = 5;
+while(i>0){
+	System.out.println(i);
+	i--;
+}
+System.out,println("Program terminated");
+
+문제1)---
+무한루프(Infinite Loop) - 조건이 거짓이 되지 않아서 영원히 반복문을 실행하는 것.
+
+문제2)---
+int i = 1;
+while(i>6) { // 조건이 처음 부터 거짓이기에 루프에 들어가지 못하고 반복문이 끝남
+	System.out.println(i);
+	i++;
+	}
+조건이 거짓이 되야 끝남 그래서 1개식 더 증가하고 끝남!!!
+-> 초기화를 시키지 않으면 작동을 안함 그래도 초기값이 있으면 한번은 실행
+
+System.out.println(i); <- 한줄 찍고 줄바꿈
+System.out.printlf("Hello%2d", i); -> 헬로 뒤에 포맷을 잡아라 -> 열에 간격을 잡음
+d: Decimal (십진수) -> 01
+o: Octal (8진수)
+x: heXadecimal (16진수)
+f: Float (십진수 실수) 
+s: String (문자열)
