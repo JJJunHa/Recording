@@ -1,0 +1,14 @@
+Array
+1 길이 고정 문제 해결!! -> Array List
+ArrayList<Integer> m =new ArrayList<Integer>();
+-> 길이를 안 정하고 계속해서 값을 배열에 넣을 수 있다!!
+
+m.add(값); -> 정해진 값이 아닌 값을 넣는것
+m.size() ->m.length
+m.get(인덱스); ->m[i] -> 어레이에 저장된 값을 가져오는것
+m.remove(인덱스) -> 인덱스에 값을 지운다. -> 근데 지워지면 밀려서 어레이 배열이 바뀜
+ex) 1이 지워지면 2가 1이된다!!!
+
+switch 문에 break는 스위치문만 빠저나오는데 if는 while도 빠져나감!!
+
+for 문에서 초기화와, 증감식은 콤마(,)로 여러개 할 수 있다!!

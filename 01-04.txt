@@ -1,0 +1,16 @@
+Menu Management
+
+Read(조회)
+create(생성
+Delete(삭제)
+update(수정)
+
+Order Management
+
+=>CRUD
+ArrayList<String> alMenu = new ArrayList<String>();
+		ArrayList<Integer>alPrice = new ArrayList<Integer>();
+
+System.out.println("---------------------------------------------");
+			System.out.println("C.메뉴추가 | R.메뉴목록 표시 | U.메뉴수정 | D.메뉴삭제");
+			System.out.println("---------------------------------------------");
