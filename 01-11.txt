@@ -1,0 +1,94 @@
+인터페이스 -> 구현클래스 (implements)
+Superclas  -> Subclass(extends)
+추상클래스 -> 실체클래스
+
+둘중에 하나라도 클래스면 인터페이스끼리 상속이 안됨
+ex) class A implements I1,I2 -> I1,I2둘다 인터페이스
+interface I3 extends I1,I2
+
+Exception -> unexpected -> 오류가 뜨면 메모리를 돌려줘야함 만약 메모리를 돌려주지 않으면 메모리가 자꾸 소모된다!!!
+프로그램을 안죽이면서 에러를 확인하는 방법이다.
+예외
+try{            //catch와 짝꿍
+	일반 실행문들;
+
+}catch(Exception 변수명){        //try와 짝꿍
+
+	후처리 실행문들;(메세지표시)
+
+}finally{       ///어차피 실행되니까 없어도 됨
+	에러와 상관없이 마지막으로 실행코드;
+
+}
+
+Exception 발생 : try중간에 catch -> finally
+Exception 안발생 : try -> finally
+
+예외처리는 크게 묶어서 한번만 해주는게 좋음 -> 오류가 여러개면 순서대로 수정하면 되기 때문이다
+n/0 = 불능
+0/n = 부정
+
+catch가 여러개라도 단 하나의 catch 블록만 실행된다. -> 범위가 작은거에서 큰거로 작성한다. 큰게 위에가면 아래가 오류뜸
+catch 파라미터 안에 비트 연산자 | 를 써서 조건을 두개 넣을 수 있다.
+
+NullPointer
+ArrayIndexOutOfBounds
+NumberFormat
+ClassCast
+->가 중요하다
+
+-자체 처리
+-떠넘기기 by throws->객체에 에러를 메인에 떠넘길 수 있다. -> 에러는 메인에서 남
+
+ex)
+main(String[]args){				int getMobile() throws Exception{
+						...
+						return this.mobile; 
+					}
+	try{
+	int n = getMobile();
+	
+	} catch(Exception e){
+	
+	}
+
+str.indexOf(" "); -> 인덱스 찾는거
+
+
+
+
+
+HTML
+태그
+!치고 앤터 툴 완성
+<h1> </h1> -> 헤더
+<img src = "파일.확장자 "> ->이미지
+img 태그 안에 width= "픽셀" -> 이미지 픽셀 사이즈
+<br> 줄바꿈	BReak
+<hr>선으로 줄나누기 HRizon
+<p> </p> -> 문단 나누기 Paragraph
+<b> </b> -> 굵음체 Bold
+<s></s> -> 글씨에 가운데 줄 쫙~ Strike
+<i> -> Italic
+<u> -> Underline
+<sup> -> 승수
+<sub> -> 로그의 밑
+
+<ul> Unordered List -> 순서 번호가 없음
+	<li></li> -> 이게 있어야함
+<ol> Ordered List -> 순서 번호가 있음
+	<li></li>
+<dl> Definition List
+	<dt>
+	<dd>
+<li>
+
+태그는 두가지
+닫는 태그가 있는것
+닫는 태그가 없는것 ex> <img src=" ">
+src == Prperty / Attribute -> 속성명
+" " == 속성 data
+
+
+셀 병합 - column -> colspan 좌우 병합
+	row -> rowspan 위 아래 병합
