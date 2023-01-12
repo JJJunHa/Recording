@@ -1,0 +1,61 @@
+<label>라벨</label> -> 모든 태그에 아이디와 네임을 부여
+-> 자바스크립트로 컨트롤 하기 위해서
+
+<br> 줄바꿈
+
+<select id=" " name=" ">
+	<option value=" "> </option> -> value 라는 값과 text라는 값 두가지
+	<option> </option>
+</select>
+-> 레이블 선택창
+
+<textarea rows="10" cols="40">
+</textarea>
+-> 입력창
+
+<video width="320" height="240" controls>
+        <source src="LOVE DIVE_1080p.mp4" type="video/mp4">
+    </video>
+-> 비디오
+
+input -> 클라이언트에 정보를 받아서 보관하는 기능 
+같은 name을 공유하면 베타적으로 움직임
+-> 타입 별로 여러가지 기능 수행
+<input type=hidden> webpage에서 특정값을 보이지 않게 보관하기 위하여 사용
+ 
+src
+
+**
+<a></a> -> 앵커 이동
+href -> 앵커안에서 사용 -> 하이퍼 텍스트로 이동
+-> 링크 안에서 target="_blank" ->새창으로 열기
+
+CSS
+class=" .클래스명"으로 호출
+id = " #프로퍼티 명으로 호출
+
+
+
+1.....
+style="  " <-프로퍼티에 직접넣기
+
+2.....
+<style>
+	td{
+} 
+</style>
+css는 ""쓰지 않는다. 
+=기능이 :이다.
+세미클론으로 닫는다.
+
+3.....
+css 파일 만들어서 <style>빼고 작성 
+<link type="text/css" rel="stylesheet" href="standard.css">
+->타이틀 위에 적고 이걸로 호출
+
+
+
+번호 순으로 우선  순위가 높음
+
+
+
