@@ -1,0 +1,16 @@
+Javascript -웹브라우저에서만 실행되는 프로그래밍 언어
+node.js -> 서버
+
+Javascript
+-HTML안에서 <script>태그 안에 코딩
+-<script>태그의 위치는 html안에 아무데나/어디든지 
+(</body>와 </html>사이를 추천)
+-변수의 타입선언이 없다. 동적타입변환 지원
+(1)let : 스코프(scope)가 있다.
+(2)var : 스코프(scope)가 없다.
+(3)그냥 사용하면 자동선언.
+
+-사용자의 입력을 받아들이는 방법
+alert( ) -확인 경고
+	리턴이 있음-confirm( ) -Yes/No, True/False
+	리턴이 있음-prompt( ) -문자열 입력
